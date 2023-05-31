@@ -1,5 +1,5 @@
 <div>
-  <div>
+  <div class="card">
     <h1>
       Movie #<%= @movie.id %> details
     </h1>
@@ -15,6 +15,7 @@
 
       <div>
         <%= link_to "Delete Movie", @movie, method: :delete %>
+        <i class='fa-regular fa-trash-can'></i>
       </div>
     </div>
 
